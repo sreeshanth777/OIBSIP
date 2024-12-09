@@ -1,0 +1,109 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(90deg, rgba(255, 223, 186, 1) 0%, rgba(255, 183, 197, 1) 50%, rgba(186, 225, 255, 1) 100%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    margin-right: 400px;
+    margin-top: 50px;
+}
+
+h1,
+h2 {
+    margin-bottom: 20px;
+    color: #444;
+    text-shadow: 0 2px 5px rgba(255, 255, 255, 0.8);
+}
+
+#taskInput {
+    width: 65%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-right: 10px;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+}
+
+#addTaskButton {
+    padding: 12px 20px;
+    border: none;
+    background: #ff6f61;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+    padding: 10px;
+
+}
+
+#addTaskButton:hover {
+    background: #ff4d4d;
+    transform: scale(1.1);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+ul li {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+.completeButton {
+    background: #28a745;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.completeButton:hover {
+    background: #218838;
+    transform: scale(1.1);
+}
+
+.deleteButton {
+    background: #dc3545;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.deleteButton:hover {
+    background: #c82333;
+    transform: scale(1.1);
+}
